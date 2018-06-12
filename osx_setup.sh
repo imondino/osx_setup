@@ -6,7 +6,7 @@
 brew install ansible terraform packer awscli amazon-ecs-cli aws-elasticbeanstalk git
 
 #Install cask sofware
-brew cask install atom spotify virtualbox vagrant
+brew cask install atom spotify virtualbox vagrant docker
 
 #Install plugins
 vagrant plugin install vagrant-hostsupdater
