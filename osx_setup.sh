@@ -31,9 +31,3 @@ ln -sf git/dotfiles/.functions ~
 ln -sf git/dotfiles/.gitconfig ~
 ln -sf git/dotfiles/.vimrc ~
 popd
-
-if [ ! -f "com.apple.Terminal.plist" ]; then
-  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install > ~/Library/Preferences/com.apple.Terminal.plist
-else
-  cp com.apple.Terminal.plist ~/Library/Preferences/com.apple.Terminal.plist
-fi
